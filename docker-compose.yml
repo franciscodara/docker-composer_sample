@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  nodejs:
+    image: franciscodara/ubuntu-ssh:latest
+    volumes: 
+      - .:/workspace
+    ports: 
+      - "22"
+      - "3090"
